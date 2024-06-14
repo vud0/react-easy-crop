@@ -756,6 +756,7 @@ class Cropper extends React.Component<CropperProps, State> {
         {image ? (
           <img
             alt=""
+            referrerPolicy="no-referrer"
             className={classNames(
               'reactEasyCrop_Image',
               objectFit === 'contain' && 'reactEasyCrop_Contain',
